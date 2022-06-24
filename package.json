@@ -1,0 +1,19 @@
+{
+    "name": "upc-utils",
+    "version": "1.0.0",
+    "repository": "git@github.com:danieldsf/upc-utils.git",
+    "author": "Daniel Farias <daniel.dsfarias@gmail.com>",
+    "license": "MIT",
+    "main": "src/index.js",
+    "files": [
+      "/src"
+    ],
+    "scripts": {
+      "test": "npx jest .",
+      "build": "npx tsc --declaration"
+    },
+    "devDependencies": {
+      "jest": "^27.1.1"
+    }
+  }
+  
