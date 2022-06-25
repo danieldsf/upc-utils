@@ -55,7 +55,7 @@ function getDigitsFromString(inputString){
     let m
     let listOfString = []
     while ((m = regex.exec(inputString)) !== null) {
-        console.log(m)
+        ///console.log(m)
         // This is necessary to avoid infinite loops with zero-width matches
         if (m.index === regex.lastIndex) {
             regex.lastIndex++;
