@@ -5,6 +5,7 @@
     "author": "Daniel Farias <daniel.dsfarias@gmail.com>",
     "license": "MIT",
     "main": "src/index.js",
+    "types": "src/index.d.ts",
     "files": [
       "/src"
     ],
